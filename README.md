@@ -1,8 +1,13 @@
 # My Neovim Config
 
-## Getting Started
+## Getting Started (Installation)
+
+### Prerequisites
+
+Neovim: [Install](https://github.com/neovim/neovim/blob/master/INSTALL.md)
 
 ### Windows
+
 ```powershell
 winget install Neovim.Neovim
 ```
@@ -31,4 +36,22 @@ rm -rf ~/.config/nvim/.git
 
 ```bash
 nvim
+```
+
+## Updateing
+
+### Windows
+
+```powershell
+Remove-Item $env:LOCALAPPDATA\nvim -Recurse -Force
+
+git clone "https://github.com/JeelDobariya38/my-neovim-config.git" "$env:LOCALAPPDATA\nvim"
+```
+
+### Linux/MacOS
+
+```bash
+rm -rf ~/.config/nvim
+
+git clone "https://github.com/JeelDobariya38/my-neovim-config.git" ~/.config/nvim
 ```
