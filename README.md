@@ -1,5 +1,7 @@
 # My Neovim Config
 
+This my nvim configuration that i use it pretty basic and minimal.....
+
 ## Getting Started (Installation)
 
 ### Prerequisites
@@ -67,3 +69,4 @@ NVIM_APPNAME=nvim-dev nvim
 ```bash
 rm -rf ~/.config/nvim-dev
 ```
+
