@@ -55,3 +55,15 @@ rm -rf ~/.config/nvim
 
 git clone "https://github.com/JeelDobariya38/my-neovim-config.git" ~/.config/nvim
 ```
+
+## Development Commands (Linux)
+
+```bash
+git clone "https://github.com/JeelDobariya38/my-neovim-config.git" ~/.config/nvim-dev
+
+NVIM_APPNAME=nvim-dev nvim
+```
+
+```bash
+rm -rf ~/.config/nvim-dev
+```
